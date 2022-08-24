@@ -1,18 +1,11 @@
 {
   "$schema": "https://smapi.io/schemas/content-patcher.json",
   "Format": "1.28.0",
-  "ConfigSchema": {
-    "WoodsType": {
-      "AllowValues": "Normal",
-      "Default": "Normal",
-      "Descirption": "Which version of the secret woods to use."
-    }
-  },
   "Changes": [
     {
       "Action": "Load",
       "Target": "Maps/Woods",
-      "FromFile": "assets/{{WoodsType}}.tbin"
+      "FromFile": "assets/Woods.tbin"
     }
   ]
 }
