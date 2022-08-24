@@ -1,0 +1,14 @@
+{
+   "Name": "[CP] Secret Woods Expanded",
+   "Author": "redawgts",
+   "Version": "1.0",
+   "Description": "Adds a nicely sized regrowing tree farm to the secret woods.",
+   "UniqueID": "redawgts.SecretWoodsExpanded",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [
+      "Nexus:0"
+   ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}
